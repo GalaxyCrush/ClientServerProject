@@ -1,31 +1,33 @@
 # ClientServerProject
 
-Projeto de Redes de Computadores
+Computer Networks Project
 
-Este projeto foi realizado no âmbito da cadeira de Redes de Computadores, em que consiste em um paradigma Cliente Servidor com as operações GET, POST retornando a resposta do servidor (Ex: 400,404 500 etc...)
+This project was carried out within the scope of the Computer Networks course, which consists of a Client Server paradigm with GET, POST operations returning the server's response (Ex: 400,404 500 etc...)
 
-## Instruções para a compilação, execução e testagem
+## Instructions for compiling, running and testing
 
-O trabalho foi produzido utilizando o java openjdk 17.0.3 2022-04-19 LTS
+The work was produced using java openjdk 17.0.3 2022-04-19 LTS
 
-Este projeto contém 3 classes, para testar e avaliar este projeto é necessário seguir as seguintes instruções:
+This project contains 3 classes, to test and evaluate this project it is necessary to follow the following instructions:
 
-1. Compilar a classe Handler utilizando o comando, "javac Handler.java"
+1. Compile a Handler class using the command, "javac Handler.java"
 
-2. Compliar as outras duas classes, "javac MyHttpClient.java MyHttpServer.java"
+2. Compile as other two classes, "javac MyHttpClient.java MyHttpServer.java"
 
-3. Se a compilação correr bem, colocar no mesmo diretório e compilar a classe TestMp1 “$ javac TestMp1.java”
+3. If the compilation goes well, put it in the same directory and compile the TestMp1 class “$javac TestMp1.java”
 
-4. Abrir um terminal e lançar a classe servidor “$ java MyHttpServer 5555” (neste exemplo a classe MyHttpServer pede um número de porto TCP onde o servidor ficará aceitando conexões como parâmetro).  
+4. Open a terminal and launch the server class “$ java MyHttpServer 5555” (in this example the MyHttpServer class asks for a TCP port number where the server will accept connections as a parameter).
 
-5. Abrir um outro terminal e lançar a classe de teste “$ java TestMp1 localhost 5555”  
+5. Open another terminal and launch the test class “$java TestMp1 localhost 5555”
 
-6. Usar o menu interativo da classe de teste para gerar os pedidos do cliente e as respostas do servidor, e então verificar a validade dos pedidos/resposta
+6. Use the test class interactive menu to generate client requests and server responses, and then check the validity of the requests/response
 
-7. Para testar a funcionalidade multithread, sugerimos lançar diferentes instâncias da classe TestMp1 até atingir o limite especificado no enunciado e tentar lançar e usar uma ulterior instância da classe para interagir com o servidor. Um servidor deverá reagir com um erro aos pedidos da última instância lancada até que todas as outras estejam ativas.
+7. To test multithreaded functionality, we suggest launching different instances of the TestMp1 class until reaching the advertised limit and trying to launch and use a later instance of the class to interact with the server. A server should react with an error to requests from the last launched instance until all others are up.
 
-### Trabalho realizado por
+### Work done by
 
 - João Pereira @fc58189
 - Daniel Nunes @fc58257
 - André Reis @fc58192
+
+The final grade of this project was 16.5/20.
